@@ -501,9 +501,7 @@ def build_DABDETR(args):
         num_classes=num_classes,
         num_queries=args.num_queries,
         aux_loss=args.aux_loss,
-        # todo 这个是啥
         iter_update=True,
-        # todo 这个是啥
         query_dim=4,
         # args里默认是False
         random_refpoints_xy=args.random_refpoints_xy,
